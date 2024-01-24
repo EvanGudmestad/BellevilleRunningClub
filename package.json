@@ -1,0 +1,33 @@
+{
+  "name": "bellevillerunningclub",
+  "version": "1.0.0",
+  "description": "A MERN stack website for the Bellville Running Club in Belleville, Illinois.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanGudmestad/BellevilleRunningClub.git"
+  },
+  "keywords": [
+    "Running",
+    "Club",
+    "Belleville",
+    "Illinois",
+    "exercise",
+    "get",
+    "fit"
+  ],
+  "author": "Evan Gudmestad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvanGudmestad/BellevilleRunningClub/issues"
+  },
+  "homepage": "https://github.com/EvanGudmestad/BellevilleRunningClub#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
