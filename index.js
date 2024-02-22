@@ -4,6 +4,7 @@ dotenv.config();
 import debug from 'debug';
 const debugServer = debug('app:Server');
 import { userRouter } from './routes/api/user.js';
+import {ping} from './database.js';
 
 const app = express();
 
