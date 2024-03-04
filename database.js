@@ -9,7 +9,7 @@ async function connectToDatabase() {
     if(!_db){
         const connectionString = process.env.DB_URL;
         const dbName = process.env.DB_NAME;
-        console.log(`Connecting to database ${connectionString} and db ${dbName}`);
+        
         const client = await MongoClient.connect(connectionString);
         _db = client.db(dbName);
     }
