@@ -5,60 +5,25 @@ function FeatureItem(){
     <section className="section" id="features">
     <div className="container">
         <div className="row">
-            <div className="col-lg-6 offset-lg-3">
+            <div className="col-lg-12">
                 <div className="section-heading">
-                    <h2>Couch 2<em> 5K Training</em></h2>
-                    <img src="assets/images/line-dec.png" alt="waves" />
-                    <p>Our Couch 2 5K Program trains individuals to complete the <a href="http://www.lawdayrun.com" target="_blank" rel="noreferrer">Law Day Run</a> in Belleville, Illinois.  There are 3 purchasing options to choose from.</p>
+                   <h1>Weekly Group Runs</h1>
+                   <h2>We meet twice per week on Thursday Evenings and Saturday Mornings.</h2>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3121.833184920978!2d-89.982815!3d38.514558!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDMwJzUyLjQiTiA4OcKwNTgnNTMuNSJX!5e0!3m2!1sen!2sus!4v1710269364337!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                   <div className="d-flex justify-content-around">
+                    <div className="col">
+                        <h4>Thursday Evening&apos;s at 6PM CST</h4>
+                        <p>Parking Lot of Casa Maria Mexican Restaurant 
+                            <br />
+                         <em>100 N High St, Belleville, IL 62220</em>
+                         </p>
+                    </div> 
+                    <div className="col">
+                        <h4>Saturday Morning&apos;s at 8AM CST</h4>
+                        <p>Corner Parking Lot on N. Jackson St. and E A St.</p>
+                    </div>
+                   </div>
                 </div>
-            </div>
-            <div className="col-lg-4">
-                <ul className="features-items">
-                    <li className="feature-item">
-                        <div className="left-icon">
-                            <img src="assets/images/features-first-icon.png" alt="First One" />
-                        </div>
-                        <div className="right-content">
-                            <h4>Option 1 - $15</h4>
-                            <p>Purchase includes Belleville Running Clubs Couch 2 5K training program, weekly group training sessions, and C25K completion T-shirt.</p>
-                            <div className="main-button scroll-to-section">
-                                <a href="https://square.link/u/SkTC2bAW" target="_blank" rel="noreferrer">Buy Option 1</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div className="col-lg-4">
-                <ul className="features-items">
-                    <li className="feature-item">
-                        <div className="left-icon">
-                            <img src="assets/images/features-first-icon.png" alt="fourth muscle" />
-                        </div>
-                        <div className="right-content">
-                            <h4>Option 2 - $25</h4>
-                            <p>Purchase includes a Couch 2 5K training program with weekly group training sessions, C25K completion T-shirt, and 1 year Belleville Running Club Membership</p>
-                            <div className="main-button scroll-to-section">
-                                <a href="https://square.link/u/HaqsRAW6" target="_blank" rel="noreferrer">Buy Option 2</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div className="col-lg-4">
-                <ul className="features-items">
-                    <li className="feature-item">
-                        <div className="left-icon">
-                            <img src="assets/images/features-first-icon.png" alt="fourth muscle" />
-                        </div>
-                        <div className="right-content">
-                            <h4>Option 3 - $50</h4>
-                            <p>Purchase includes a Couch 2 5K training program, weekly group training sessions, C25K completion T-shirt, 1 year Belleville Running Club Membership, and 2023 Law Day 5K Race entry.</p>
-                            <div className="main-button scroll-to-section">
-                                <a href="https://square.link/u/SeOQBFX7" target="_blank" rel="noreferrer">Buy Option 3</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>

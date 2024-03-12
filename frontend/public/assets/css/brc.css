@@ -146,8 +146,7 @@ body {
 
 .section-heading {
   text-align: center;
-  margin-top: 140px;
-  margin-bottom: 80px;
+  margin-top: 50px;
 }
 
 .section-heading h2 {
@@ -269,9 +268,8 @@ header
   font-weight: 900;
 }
 
-.header-area .main-nav .nav {
+.header-area .main-nav .navbar-nav {
   float: right;
-  margin-top: 27px;
   margin-right: 0px;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -282,12 +280,12 @@ header
   z-index: 999;
 }
 
-.header-area .main-nav .nav li {
+.header-area .main-nav .navbar-nav li {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.header-area .main-nav .nav li a {
+.header-area .main-nav .navbar-nav li a {
   display: block;
   font-weight: 500;
   font-size: 13px;
@@ -303,11 +301,15 @@ header
   letter-spacing: 1px;
 }
 
-.header-area .main-nav .nav li a {
+.header-area .main-nav .navbar-nav li a {
   color: #fff;
 }
 
-.header-area .main-nav .nav li:last-child a {
+.header-area .main-nav .navbar-nav li a:hover {
+  background-color: #f9735b;
+}
+
+/* .header-area .main-nav .navbar-nav li:last-child a {
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
@@ -320,12 +322,12 @@ header
   transition: all .3s;
   height: auto;
   line-height: 20px;
-}
+} */
 
-.header-area .main-nav .nav li:last-child a:hover {
+/* .header-area .main-nav .navbar-nav li:last-child a:hover {
   background-color: #f9735b;
   opacity: 1;
-}
+} */
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
@@ -463,6 +465,13 @@ header
 }
 
 @media (max-width: 1200px) {
+  .header-area .main-nav .logo{
+    color:#ed563b;
+  }
+  .header-area{
+    color:#ed563b;
+    background: rgba(250,250,250,1);
+  }
   .header-area .main-nav .nav li {
     padding-left: 12px;
     padding-right: 12px;
@@ -474,6 +483,7 @@ header
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
+    font-size: 24px;
     color: #1e1e1e;
   }
   .header-area.header-sticky .nav li a:hover,
@@ -492,7 +502,7 @@ header
     padding: 0px;
   }
   .header-area .logo {
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -668,6 +678,10 @@ features
   margin-bottom: 80px;
 }
 
+#features h1, #features h4{
+  color:#ed563b;
+}
+
 .feature-item {
   display: inline-block;
   margin-bottom: 60px;
@@ -714,6 +728,11 @@ subscribe
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  color:white;
+}
+
+#call-to-action p, #call-to-action h4{
+  color:white;
 }
 
 .cta-content h2 {
@@ -1212,7 +1231,7 @@ responsive
 
 
 @media (max-width: 992px) {
-
+ 
   .main-banner .caption h2 {
     font-size: 64px;
   }
@@ -1242,6 +1261,10 @@ responsive
 }
 
 @media (max-width: 450px) {
+  .header-area .main-nav .logo{
+    font-size: 22px;
+    /* background-color:yellow; */
+  }
   .feature-item .right-content a.text-button {
     margin-left: 130px;
   }

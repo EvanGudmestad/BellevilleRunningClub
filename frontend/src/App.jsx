@@ -1,62 +1,19 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import brcLogo from '/brclogo.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import { FaBeer } from "react-icons/fa";
 import FeatureItem from './components/FeatureItem'
+import Header from './components/Header'
+import CallToAction from './components/CallToAction'
 
 function App() {
- 
-
   return (
   <>
-  
-  {/* <!-- ***** Preloader Start ***** --> */}
-    {/* <div id="js-preloader" className="js-preloader">
-      <div className="preloader-inner">
-        <span className="dot"></span>
-        <div className="dots">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </div> */}
-    {/* <!-- ***** Preloader End ***** --> */}
-    
-    
-    {/* <!-- ***** Header Area Start ***** --> */}
-    <header className="header-area header-sticky">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <nav className="main-nav">
-                        {/* <!-- ***** Logo Start ***** --> */}
-                        <a href="index.html" className="logo">Belleville<em>Running</em>Club</a>
-                        {/* <!-- ***** Logo End ***** --> */}
-                        {/* <!-- ***** Menu Start ***** --> */}
-                        <ul className="nav">
-                            <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
-                            <li className="scroll-to-section"><a href="#features">About</a></li>
-                            <li className="scroll-to-section"><a href="#our-classes">Classes</a></li>
-                            <li className="scroll-to-section"><a href="#schedule">Schedules</a></li>
-                            <li className="scroll-to-section"><a href="#contact-us">Contact</a></li> 
-                            <li className="main-button"><a href="#" target="_blank" rel="noreferrer">Sign Up</a></li>
-                        </ul>        
-                        <a className='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        {/* <!-- ***** Menu End ***** --> */}
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    {/* <!-- ***** Header Area End ***** --> */}
+    <Header />
 
-    {/* <!-- ***** Main Banner Area Start ***** --> */}
+    {/* <!-- ***** Main Banner Area Start ***** --> */} 
     <div className="main-banner" id="top">
         <video autoPlay muted loop id="bg-video">
             <source src="assets/images/brcvid.mp4" type="video/mp4" />
@@ -64,32 +21,19 @@ function App() {
 
         <div className="video-overlay header-text">
             <div className="caption">
-                <h6>A Group of runners in Belleville, Illinois</h6>
-                <h2>Running is easier in a <em>GROUP!</em></h2>
+                <h6>A Club of runners in Belleville, Illinois</h6>
+                <h2>Running is easier in a <em>CLUB!</em></h2> 
                 <div className="main-button scroll-to-section">
-                    <a href="https://runsignup.com/Club/SearchForRenew/1858" target="_blank" rel="noreferrer">Become a member</a>
+                    <a href="https://runsignup.com/Club/Join/1858" target="_blank" rel="noreferrer">Become a BRC member</a>
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
     {/* <!-- ***** Main Banner Area End ***** --> */}
     <FeatureItem />
     {/* <!-- ***** Call to Action Start ***** --> */}
-    {/* <section className="section" id="call-to-action">
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-10 offset-lg-1">
-                    <div className="cta-content">
-                        <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
-                        <div className="main-button scroll-to-section">
-                            <a href="#our-classes">Become a member</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> */}
+    <CallToAction />
+   
     {/* <!-- ***** Call to Action End ***** --> */}
 
     {/* <!-- ***** Our classNamees Start ***** --> */}
